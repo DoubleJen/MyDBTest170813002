@@ -31,11 +31,16 @@
         android:text="query"
         android:onClick="query"
         />
+    //ScrollView產生一個可滑動的View 但只能塞一個東西
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            />
+    </ScrollView>
 
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-    />
 </LinearLayout>
